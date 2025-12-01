@@ -10,7 +10,7 @@ filterItems.forEach((item) => {
     const filterText = item.textContent.toLowerCase();
     carItems.forEach((car) => {
       if (
-        filterText === 'все марки' ||
+        filterText === 'все модели' ||
         car.querySelector('h4').textContent.toLowerCase().includes(filterText)
       ) {
         car.style.display = 'flex';

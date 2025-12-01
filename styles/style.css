@@ -25,18 +25,19 @@ body {
   padding: 20px;
   text-align: center;
   box-sizing: border-box;
-  background-color: #f8ff23;
+  background-color: #da2187;
   color: #000000;
   outline: 0;
   text-decoration: none;
   display: block;
+  border-radius: 15px;
   border: 0;
   cursor: pointer;
   font-size: 24px;
 }
 
 .button:hover {
-  background-color: #a8ae16;
+  background-color: #f33996;
 }
 
 .button.white-button {
@@ -44,7 +45,7 @@ body {
 }
 
 .button.white-button:hover {
-  background-color: #f8ff23;
+  background-color: #f33996;
 }
 
 .main {
@@ -72,7 +73,7 @@ body {
 }
 
 .logo img {
-  max-width: 129px;
+  max-width: 600px;
   vertical-align: bottom;
 }
 
@@ -88,8 +89,8 @@ body {
 }
 
 .menu ul a {
-  font-size: 14px;
-  color: #ffffff;
+  font-size: 16px;
+  color: #da2187;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
@@ -97,13 +98,13 @@ body {
 }
 
 .menu ul a:hover {
-  color: #f8ff23;
+  color: #f33996;
 }
 
 .phone {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
-  color: #ffffff;
+  color: #da2187;
   text-decoration: none;
   cursor: pointer;
   letter-spacing: normal;
@@ -139,8 +140,8 @@ body {
 
 .main-image {
   position: absolute;
-  top: 78px;
-  right: -576px;
+  top: 0px;
+  right: -550px;
   z-index: -1;
 }
 
@@ -178,6 +179,7 @@ body {
   padding: 16px;
   text-align: center;
   border: 1px solid #ffffff;
+  border-radius: 15px;
   font-size: 16px;
   color: #ffffff;
   box-sizing: border-box;
@@ -187,8 +189,8 @@ body {
 
 .cars-filter ul li.active,
 .cars-filter ul li:hover {
-  color: #f8ff23;
-  border-color: #f8ff23;
+  color: #f33996;
+  border-color: #f33996;
 }
 
 .cars-items {
@@ -271,8 +273,8 @@ body {
 
 .order img {
   position: absolute;
-  top: -25px;
-  left: -530px;
+  top: -100px;
+  left: -650px;
 }
 
 .order form {
@@ -310,6 +312,7 @@ body {
   box-sizing: border-box;
   color: #ffffff;
   border: 1px solid #ffffff;
+  border-radius: 15px;
   background-color: transparent;
   margin-bottom: 15px;
   font-size: 16px;
